@@ -1,4 +1,4 @@
-package com.baizhi;
+﻿package com.baizhi;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -14,6 +14,7 @@ public class SpringbootInitializrApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringbootInitializrApplication.class, args);
         system.out.println("666666");
+	System.out.println("88888888");
     }
 
 }
